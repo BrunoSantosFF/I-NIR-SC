@@ -16,27 +16,15 @@ from data_loader import load_and_prepare_data, MultiModalDataset
 from plot import plot_loss_accuracy, plot_confusion_matrix
 
 
-BASE_PATH = "/home/von-neumann/Bruno_Santos/results"
-VAE_FEATURES_PATH = f"{BASE_PATH}/vetores_latente/latent_vectors/latent_vectors_fold_0.csv"
+BASE_PATH = "caminho relativo"
+VAE_FEATURES_PATH = f"{BASE_PATH}/I-NIR-SC/inputs/vetor_latente.txt"
 OUTPUT_PATH = f"{BASE_PATH}/classificacao_combinada"
 
 MODEL_CONFIGS = {
     'densenet-121': {
-        'data': f"{BASE_PATH}/modelos_retreinados/densenet-121_fold_4/features_brutas_densenet-121.csv",
+        'data': "/home/bruno/test/tcc/I-NIR-SC/inputs/features_modelo1.txt",
         'display_name': 'Densenet121'
     },
-    'focalnet-tiny': {
-        'data': f"{BASE_PATH}/modelos_retreinados/focalnet-tiny_fold_5/features_brutas_focalnet-tiny.csv",
-        'display_name': 'FocalnetTiny'
-    },
-    'regnety-32': {
-        'data': f"{BASE_PATH}/modelos_retreinados/regnety-32_fold_5/features_brutas_regnety-32.csv",
-        'display_name': 'Regnety32'
-    },
-    'resnet50': {
-        'data': f"{BASE_PATH}/modelos_retreinados/resnet-50_fold_1/features_brutas_resnet-50.csv",
-        'display_name': 'ResNet50'
-    }
 }
 
 USE_IMPROVED_ATTENTION = False
