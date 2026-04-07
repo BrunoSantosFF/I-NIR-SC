@@ -1,72 +1,74 @@
-# Fusão de Imagens e Dados Espectrais NIR para Classificação de Câncer de Pele
+# Image and NIR Spectral Data Fusion for Skin Cancer Classification
 
-Este repositório reúne o código utilizado no artigo [Colocar artigo], disponibilizando scripts e ferramentas voltados à análise e classificação de lesões de pele por meio de modelos de aprendizado profundo.
+This repository contains the code used in the article [Insert article], providing scripts and tools for the analysis and classification of skin lesions using deep learning models.
 
-## Funcionalidades
+## Features
 
-- Implementações de redes neurais convolucionais (CNNs) para análise de imagens de câncer de pele
-- Classificação e treinamento de uma rede neural MLP
-- Cálculo e visualização de valores SHAP
+- Implementations of Convolutional Neural Networks (CNNs) for skin cancer image analysis
 
+- Classification and training of an MLP neural network
 
-## Dependências
-O código é desenvolvido em Python e utiliza as seguintes bibliotecas principais: 
+- Calculation and visualization of SHAP values
 
-- PyTorch: Para a implementação dos modelos de aprendizado profundo.
-- Scikit-Learn: Para utilidades complementares de aprendizado de máquina.
+## Dependencies
+The code is developed in Python and uses the following main libraries:
 
-Para configurar o ambiente, certifique-se de que o Python está instalado no seu sistema. Em seguida, instale as dependências necessárias usando:
+- PyTorch: For implementing deep learning models.
+
+- Scikit-Learn: For complementary machine learning utilities.
+
+To set up the environment, make sure Python is installed on your system. Then install the required dependencies using:
 
 ```
 pip install -r requirements.txt
 ```
 
 
-## Estrutura do Repositório
+## Repository Structure
 
-- class: Contém as implementações dos modelos CNN e scripts para executar experimentos.
+- class: Contains CNN model implementations and scripts for running experiments.
 
-- shap: Script da estrtura do SHAP 
+- shap: Script for the SHAP structure.
 
-- inputs: Contém as pastas dos conjuntos de dados utilizados.
+- inputs: Contains the folders for the datasets used.
 
 
-##  Links para os Conjuntos de Dados
-Os conjuntos de dados utilizados neste projeto estão disponíveis publicamente:
+##  Links to Datasets
+The datasets used in this project are publicly available:
 
 --- colocar o dataset [I+NIR-SC]
 
 
-## Instruções de Uso
-Passo 1: Clonar o Repositório
+## Instructions for Use
+Step 1: Clone the Repository
 
 ```
 git clone https://github.com/BrunoSantosFF/I-NIR-SC.git
 ```
 
-Passo 2: Configurar os Caminhos dos Conjuntos de Dados
+Step 2: Configure Dataset Paths
 
-Dentro do arquivo principal (**main.py**), na varivel `MODEL_CONFIGS` configure os arquivos de entrada para cada modelo escolhido.
+Inside the main file (**main.py**), in the MODEL_CONFIGS variable, configure the input files for each chosen model.
 
-Passo 3: Executar Experimentos
+Step 3: Run Experiments
 
-Para executar o experimento, basta usar o script `main.py` com o seguinte comando e ira aparecer um menu interativo: 
+To run an experiment, simply use the main.py script with the following command. An interactive menu will appear: 
 
 ```
 python3 main.py 
 ```
 
-## Contato
-Para qualquer dúvida, entre em contato comigo em brunosf1804@gmail.com
+## Contact
+For any questions, please contact me at brunosf1804@gmail.com
 
-## Créditos e Agradecimentos
-Algumas implementações dos códigos foi baseada nestes repositórios, disponíveis em https://github.com/paaatcha/my-thesis e https://github.com/MatheusBecali/VAE-GNA.git.
+## Credits, Acknowledgments, and Notes
+Some code implementations were based on the following repositories, available at: https://github.com/paaatcha/my-thesis and https://github.com/MatheusBecali/VAE-GNA.git
 
-Essas adaptações foram essenciais para:
+These adaptations were essential for:
 
-- Garantir a reprodutibilidade dos resultados obtidos anteriormente com o conjunto de dados PAD-UFES-20 e ser retreinado (Fine-tuning) com o dataset do I+NIR-SC e salvar suas features para ser utilizadas do codigo.
+- Ensuring the reproducibility of results previously obtained with the PAD-UFES-20 dataset, allowing fine-tuning with the I+NIR-SC dataset and saving its features for use in the code.
 
-- A mesma coisa foi executada no conjunto de dados NIR-SC-UFES e foram obtidas o vetor latente para os inputs.
+- The same procedure was performed on the NIR-SC-UFES dataset to obtain the latent vector for the inputs.
 
 
 
