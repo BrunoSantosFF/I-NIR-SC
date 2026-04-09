@@ -1,6 +1,6 @@
-# Image and NIR Spectral Data Fusion for Skin Cancer Classification
+# Fusion of images and NIR spectroscopy data of skin lesions: a new dataset with classification results
 
-This repository contains the code used in the article [Insert article], providing scripts and tools for the analysis and classification of skin lesions using deep learning models.
+This repository contains the code used in the article [Fusion of images and NIR spectroscopy data of skin lesions: a new dataset with classification results](#features), providing scripts and tools for the analysis and classification of skin lesions using deep learning models.
 
 ## Features
 
@@ -13,36 +13,47 @@ This repository contains the code used in the article [Insert article], providin
 ## Dependencies
 The code is developed in Python and uses the following main libraries:
 
-- PyTorch: For implementing deep learning models.
-
-- Scikit-Learn: For complementary machine learning utilities.
+- PyTorch: Deep learning modeling and training.
+- Scikit-learn: Auxiliary machine learning utilities.
 
 To set up the environment, make sure Python is installed on your system. Then install the required dependencies using:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 
 ## Repository Structure
 
-- class: Contains CNN model implementations and scripts for running experiments.
+- `class/`: CNN model implementations and experiment scripts.
+- `shap/`: Scripts used for SHAP analysis.
+- `inputs/`: Input files and auxiliary data used by experiments.
 
-- shap: Script for the SHAP structure.
+```text
+.
+├── class/
+│   ├── data_loader.py
+│   ├── main.py
+│   ├── model.py
+│   └── plot.py
+├── inputs/
+│   └── vetor_latente.txt
+├── shap/
+│   └── shap.py
+└── requirements.txt
+```
 
-- inputs: Contains the folders for the datasets used.
 
-
-##  Links to Datasets
+## Links to Datasets
 The datasets used in this project are publicly available:
 
---- colocar o dataset [I+NIR-SC]
+- I+NIR-SC: link to be added.
 
 
 ## Instructions for Use
 Step 1: Clone the Repository
 
-```
+```bash
 git clone https://github.com/BrunoSantosFF/I-NIR-SC.git
 ```
 
@@ -54,7 +65,7 @@ Step 3: Run Experiments
 
 To run an experiment, simply use the main.py script with the following command. An interactive menu will appear: 
 
-```
+```bash
 python3 main.py 
 ```
 
