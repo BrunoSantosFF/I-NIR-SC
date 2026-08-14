@@ -1,6 +1,9 @@
-# Fusion of images and NIR spectroscopy data of skin lesions: a new dataset with classification results
+# Multimodal Fusion of Skin Lesion Images and NIR Spectroscopy: A Novel Dataset for Classification Evaluation
 
-This repository contains the code used in the article [Fusion of images and NIR spectroscopy data of skin lesions: a new dataset with classification results](#features), providing scripts and tools for the analysis and classification of skin lesions using deep learning models.
+# Under REVIEW
+
+This repository contains the code used in the article [Multimodal Fusion of Skin Lesion Images and NIR
+Spectroscopy: A Novel Dataset for Classification Evaluation](#features), providing scripts and tools for the analysis and classification of skin lesions using deep learning models.
 
 ## Features
 
@@ -47,7 +50,7 @@ pip install -r requirements.txt
 ## Links to Datasets
 The datasets used in this project are publicly available:
 
-- I+NIR-SC: link to be added.
+- I+NIR-SC-UFES: [Mendeley Data](https://data.mendeley.com/datasets/fttnv8x2t5/1)
 
 
 ## Instructions for Use
@@ -77,7 +80,7 @@ Some code implementations were based on the following repositories, available at
 
 These adaptations were essential for:
 
-- Ensuring the reproducibility of results previously obtained with the PAD-UFES-20 dataset, allowing fine-tuning with the I+NIR-SC dataset and saving its features for use in the code.
+- Ensuring the reproducibility of results previously obtained with the PAD-UFES-20 dataset, allowing fine-tuning with the I+NIR-SC-UFES dataset and saving its features for use in the code.
 
 - The same procedure was performed on the NIR-SC-UFES dataset to obtain the latent vector for the inputs.
 
