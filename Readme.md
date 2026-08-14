@@ -1,6 +1,7 @@
 # Multimodal Fusion of Skin Lesion Images and NIR Spectroscopy: A Novel Dataset for Classification Evaluation
 
-# Under REVIEW
+> **Status:** under review. The paper link and DOI will be add here once it is published.
+ 
 
 This repository contains the code used in the article [Multimodal Fusion of Skin Lesion Images and NIR
 Spectroscopy: A Novel Dataset for Classification Evaluation](#features), providing scripts and tools for the analysis and classification of skin lesions using deep learning models.
