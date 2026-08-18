@@ -209,8 +209,7 @@ def main():
     Performs both modality and backbone architecture comparison analyses.
     """
     # Path to directory containing experiment results
-    # PATH = './results'
-    PATH = '/mnt/hdd/matheusbecali/Doutorado/Orientados/TCCs/Bruno_files/paper/Autorank'
+    PATH = './results'
 
     # Metric to use for statistical comparison
     METRIC = 'balanced_accuracy'
