@@ -1,10 +1,17 @@
 # Multimodal Fusion of Skin Lesion Images and NIR Spectroscopy: A Novel Dataset for Classification Evaluation
 
-> **Status:** under review. The paper link and DOI will be add here once it is published.
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> Official code for the paper *"Multimodal Fusion of Skin Lesion Images and NIR spectroscopy: A Novel Dataset for Classification Evaluation"*
  
 
-This repository contains the code used in the article [Multimodal Fusion of Skin Lesion Images and NIR
-Spectroscopy: A Novel Dataset for Classification Evaluation](#features), providing scripts and tools for the analysis and classification of skin lesions using deep learning models.
+This repository providing scripts and tools for the analysis and classification of skin lesions using deep learning models.
+
+_**Elsevier Paper**_ \
+**Journal:** Chemometrics and Intelligent Laboratory Systems \
+**Title:** Multimodal fusion of skin lesion images and NIR spectroscopy: A novel dataset for classification evaluation (Language: English) \
+**Link to the paper:** [https://www.sciencedirect.com/science/article/pii/S0169743926002893](https://www.sciencedirect.com/science/article/pii/S0169743926002893)
 
 ## Features
 
@@ -71,6 +78,24 @@ To run an experiment, simply use the main.py script with the following command. 
 
 ```bash
 python3 main.py 
+```
+
+## Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@article{Rocha2026,
+title = {Multimodal fusion of skin lesion images and NIR spectroscopy: A novel dataset for classification evaluation},
+journal = {Chemometrics and Intelligent Laboratory Systems},
+volume = {279},
+pages = {105916},
+year = {2026},
+issn = {0169-7439},
+doi = {https://doi.org/10.1016/j.chemolab.2026.105916},
+author = {Matheus B. Rocha and Bruno S. Fernandes and Madson P. Zanoni and Pedro H. {da Cunha} and Paulo R. Filgueiras and Renato A. Krohling},
+keywords = {Convolutional neural network, Variational autoencoder (VAE), SHAP, Skin cancer, Near-Infrared (NIR) spectroscopy, Dataset of skin lesions collected }
+}
 ```
 
 ## Contact
